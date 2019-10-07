@@ -93,7 +93,6 @@ class _MyHomePageState extends State<MyHomePage> {
       fontSize: 16.0,
     );
   }
-
   readData(String text) async {
     final prefers=await SharedPreferences.getInstance();
     setState(() {
